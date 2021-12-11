@@ -4,4 +4,4 @@ while True:
         res = 2*n + 3*n*(n-1)//2
         print(res)
     except:
-        break
+        break 
