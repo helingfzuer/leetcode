@@ -17,7 +17,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    numbers = [int(num) for num in input().split(',')]
+    numbers = [int(num) for num in input().split(' ')]
     s = Solution()
     res = s.MoreThanHalfNum_Solution(numbers)
     print(res)
